@@ -6,6 +6,17 @@ public class OptionalBasic {
 
     public static void main(String[] args) {
 
+        //  What is Optional?
+        // Optional is a container object that may or may not contain a non-null value. It was introduced in Java 8 as part of the java.util 
+        // package to represent optional values and to deal with the problem of null references in a more effective and expressive way.
+
+        // Why Optional?
+        // Prior to the introduction of Optional in Java 8, handling null values often led to NullPointerExceptions (NPEs), 
+        // which could be difficult to debug and manage. Optional provides a more explicit and safer way to handle the absence of
+        // a value, reducing the likelihood of NPEs and improving code clarity and robustness.
+        
+        
+        
         // Static Methods of Optional
 
         // 1) empty : it returns empty optional string if optional is empty
@@ -13,8 +24,6 @@ public class OptionalBasic {
 
         Optional<Object> emptyOptional = Optional.empty();
         System.out.println(emptyOptional);
-
-
 
 
         // 2) of : if optional is not null then it gives optional string and if null then it gives NullPointer Exception
